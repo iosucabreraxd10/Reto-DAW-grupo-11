@@ -31,6 +31,13 @@ public class AdminMainPage {
 
         JLabel underUser = new JLabel("Admin");
 
+        ayuda.setForeground(Color.WHITE);
+        colecciones.setForeground(Color.WHITE);
+        eventosYNoticias.setForeground(Color.WHITE);
+        sobreNosotros.setForeground(Color.WHITE);
+        inicioSesion.setForeground(Color.WHITE);
+        underUser.setForeground(Color.WHITE);
+
         ayuda.setFont(new Font("Arial",Font.BOLD,14));
         ayuda.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
         colecciones.setFont(new Font("Arial",Font.BOLD,14));
